@@ -1,3 +1,5 @@
+// Copyright : Vincent SAHLER, 2018
+
 #include "robot.hpp"
 #include "Arduino.h"
 
@@ -49,7 +51,7 @@ int LinesCapt::addDetector(int detectorValues[5])
 {
   detectorLen++;
   for(int it=0;it<5;it++)
-    detector[detectorLen-1][it] = detector[it];
+    detector[detectorLen-1][it] = detectorValues[it];
 
   return detectorLen-1;
 }

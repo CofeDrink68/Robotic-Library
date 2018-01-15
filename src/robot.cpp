@@ -1,8 +1,6 @@
 #include "robot.hpp"
 #include "Arduino.h"
 
-// Test Atom Push
-
 void actualizeMotor(Motor* mg, Motor* md)
 {
   if(mg->state==0)

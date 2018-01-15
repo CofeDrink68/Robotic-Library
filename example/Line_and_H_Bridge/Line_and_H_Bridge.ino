@@ -1,3 +1,6 @@
+// Copyright : Vincent SAHLER, 2018
+// GitHub Username : CofeDrink68
+
 #include "robot.hpp"
 
 Motor mGauche;
@@ -25,13 +28,17 @@ void setup() {
     pinMode(motorsPins[0][y], OUTPUT);
     mGauche.pins[y] = motorsPins[y];
   }
+  mGauche.state = 20;
+
 
   for(int y=0;y<3;y++){
     pinMode(motorsPins[1][y], OUTPUT);
     mDroit.pins[y] = motorsPins[y];
   }
+  mDroit.state = 20;
 
   Serial.begin(115200);
+  actualizeMotor(mGauche, mDroit);
 }
 
 void loop() {

@@ -1,3 +1,5 @@
+// Cpyright : Vincent SAHLER, 2018
+
 #include "Arduino.h"
 
 struct myMoteur

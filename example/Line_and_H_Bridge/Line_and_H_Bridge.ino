@@ -1,4 +1,4 @@
-// Copyright : Vincent SAHLER 2018
+// Copyright : Vincent SAHLER, 2018
 // GitHub Username : CofeDrink68
 
 #include "robot.hpp"

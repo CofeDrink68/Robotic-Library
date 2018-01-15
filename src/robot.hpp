@@ -1,3 +1,5 @@
+// Cpyright : Vincent SAHLER, 2018
+
 #include "Arduino.h"
 
 struct myMoteur
@@ -6,7 +8,7 @@ struct myMoteur
   int state;
 };
 typedef struct myMoteur Motor;
-void actializeMotor(Motor* mg, Motor* md);
+void actualizeMotor(Motor* mg, Motor* md);
 
 class LinesCapt{
   public:

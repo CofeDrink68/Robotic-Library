@@ -1,3 +1,5 @@
+// Copyright : Vincent SAHLER 2018
+
 #include "robot.hpp"
 
 Motor mGauche;
